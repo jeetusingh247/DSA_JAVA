@@ -1,6 +1,7 @@
 // import java.util.concurrent.ArrayBlockingQueue;
 
 public class ArrayUtil {
+   // --> print algo code
  public void printArray(int[] arr){
     int n = arr.length;
     for(int i=0; i<n; i++){
