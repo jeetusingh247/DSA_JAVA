@@ -26,8 +26,4 @@ public class resizeArray {
         System.out.println("size of array after modified : " + original.length);
 
     }
-
-
-
-
 }
