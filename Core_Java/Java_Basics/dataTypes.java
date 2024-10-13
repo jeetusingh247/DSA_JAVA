@@ -1,8 +1,13 @@
 // --> primitive data types - boolean, char, byte, short, int, long, float and double.
 // --> nonprimitive data types - Classes, interfaces and Arrays.
 // --> Java is statically typed programming language
-public class dataTypes {
+
+
+public class dataTypes { // --> we have seen some non-primitive dataTypes earlier
     public static void main(String[] args) {
+
+        // --> primitive dataTypes
+
         Boolean one = false;
         System.out.println(one.getClass()); // boolean type class
         
@@ -52,19 +57,7 @@ public class dataTypes {
         System.out.println("Character : " + c1); // char dataType
         System.out.println("Char Type Minimum Value: " + Character.MIN_VALUE); // 
         System.out.println("Char Type Maximum Value : " + Character.MAX_VALUE); // ?
-        System.out.println();
-        
-
-
-
-
-
-
-
-        
-
-
-    
+        System.out.println();    
     }
 
 }
