@@ -90,6 +90,59 @@ public class control_statements {
         // } 
         
         // (5) Switch Statement
+        // Basic Syntax
+        // switch(expression) {
+        //     case value1:
+        //     statement 1;
+        //     break;
+        //     ....
+        //     case value N:
+        //     statement N;
+        //     break;
+        //     default:
+        //     default statement;
+        // }
+
+        // Example 
+        // int num = 0;
+        // switch (num) {
+        //     case 0:
+        //     System.out.println("number is 0");
+        //     break;
+        //     case 1:
+        //     System.out.println("number is 1");
+        //     break;
+        //     default:
+        //     System.out.println(num);
+        // }
+
+        // (6) Loop Statements
+
+        // (i) Java for loop
+        // Basic Syntax
+        // for(initialisation; condition; increment/decrement) {
+        //     // block of statements
+        // }
+        // Example
+        int sum = 0;
+        for(int j = 1; j <= 10; j++){
+            sum += j;
+        }
+        System.out.println("The sum of first 10 natural numbers is " + sum);
+
+        // (ii) Java for-each loop
+        // Basic Syntax
+        // for(data_type var: array_name/collection_name) {
+        //     // statements
+        // }
+        String[] names = {"Java", "C", "C++", "Python", "JavaScript"};
+        System.out.println("Printing the content of array names:\n");
+        
+        for(String name:names) {
+            System.out.println(name);
+        }
+
+        // (iii) Java while loop
         
     }
     
