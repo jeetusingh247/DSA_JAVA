@@ -155,7 +155,7 @@ public class operators {
         s = (short)(s + s2); // 20 which is now converted to short
         System.out.println(s);
 
-
+        
 
     }
 }
