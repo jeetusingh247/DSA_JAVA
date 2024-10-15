@@ -171,7 +171,40 @@ public class control_statements {
         //     i += 2;
         // } while(i <= 10);
 
-        // (v) Jump Statements
+        // (v) Jump Statements(break, continue)
+
+        // (1) Java break statement
+        // Example 1
+        // for (int i = 0; i <= 10; i++) {
+        //     System.out.println(i); // 0 1 2 3 4 5 6
+        //     if (i == 6) {
+        //         break;
+        //     }
+        // }
+
+        // Example 2 with labeled for loop
+        // a: for (int i = 0; i <= 10; i++) {
+        //     b : for (int j = 0; j <= 15 ; j++) {
+        //         c: for (int k = 0; k <= 20; k++) {
+        //             System.out.println(k);
+        //             if (k == 5) {
+        //                 break a; // break b; , break c;
+        //             }
+        //         }
+        //     }
+        // }
+
+        // Java continue statement
+        // Example 1
+        // for (int i = 0; i <= 2; i++) {
+        //      for (int j = i; j <= 5; j++) {
+        //         if (j == 4) {
+        //            continue; // 4 is 
+        //         }
+        //         System.out.println(j);
+        //     }
+        //  }
+
         
 
     }
