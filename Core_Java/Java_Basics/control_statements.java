@@ -124,26 +124,56 @@ public class control_statements {
         //     // block of statements
         // }
         // Example
-        int sum = 0;
-        for(int j = 1; j <= 10; j++){
-            sum += j;
-        }
-        System.out.println("The sum of first 10 natural numbers is " + sum);
+        // int sum = 0;
+        // for(int j = 1; j <= 10; j++){
+        //     sum += j;
+        // }
+        // System.out.println("The sum of first 10 natural numbers is " + sum);
 
         // (ii) Java for-each loop
         // Basic Syntax
         // for(data_type var: array_name/collection_name) {
         //     // statements
         // }
-        String[] names = {"Java", "C", "C++", "Python", "JavaScript"};
-        System.out.println("Printing the content of array names:\n");
+        // String[] names = {"Java", "C", "C++", "Python", "JavaScript"};
+        // System.out.println("Printing the content of array names:\n");
         
-        for(String name:names) {
-            System.out.println(name);
-        }
+        // for(String name:names) {
+        //     System.out.println(name);
+        // }
 
         // (iii) Java while loop
+        // Basic Syntax
+        // while(condition) {
+        //     // looping statements
+        // }
+
+        // Example 1
+        // int i = 2;
+        // System.out.println("Printing the list of first 10 even numbers\n");
+        // while (i <= 10) {
+        //     System.out.println(i);
+        //     i += 2;
+        // }
+
+        // (iv) Java do-while loop (exit-controlled loop)
+        // Basic Syntax
+        // do
+        // {
+             // statements
+        // } while(condition);
+
+        // Example 1
+        // int i = 0;
+        // System.out.println("Printing the list of first 10 even numbers\n");
+        // do {
+        //     System.out.println(i);
+        //     i += 2;
+        // } while(i <= 10);
+
+        // (v) Jump Statements
         
+
     }
     
 }
