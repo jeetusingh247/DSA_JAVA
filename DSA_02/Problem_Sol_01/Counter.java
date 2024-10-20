@@ -19,5 +19,8 @@ public class Counter {
             n = n / 10; // to separate out last digit from a number
         }
         System.out.println("Count for " +val1+ " is : "+count);
+        sout
     }
+
+    
 }
